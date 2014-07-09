@@ -1,0 +1,10 @@
+These scripts are designed to use the Berg and Coop method to evaluate polygenic selection.
+
+Data: Directory of data to evaluate
+      -Maize282 panel GBS (partially imputed) (downloaded from Panzea 6/25/14)
+      - Highland/Lowland GBS (downloaded from Github 6/25/14)
+
+Scripts: Directory of scripts
+	 -isolateSamples.R: When multiple GBS runs of the same accession exist,
+	 		    this script will remove the run with less data.
+	 -mergeSNPs.R: merge 282 data with highlow data, on SNPs

@@ -1,0 +1,13 @@
+###############################################################################
+### When multiple GBS runs of the same accession exist, this script will    ###
+### remove the run with less data.                                          ###
+###############################################################################
+
+### Timothy M. Beissinger
+
+### Set working directory
+setwd("/Users/beissinger/Documents/ParallelAdaptation/Data/Maize282_imputed_AllZea_GBS_Build_July_2012_FINAL")
+
+
+### Load one chromosome
+chrX <- read.table("Maize282_imputed_AllZea_GBS_Build_July_2012_FINAL_chr1.hmp.txt", header=T,stringsAsFactors=F,comment.char="")
