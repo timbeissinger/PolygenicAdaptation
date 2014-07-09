@@ -8,3 +8,9 @@ Scripts: Directory of scripts
 	 -isolateSamples.R: When multiple GBS runs of the same accession exist,
 	 		    this script will remove the run with less data.
 	 -mergeSNPs.R: merge 282 data with highlow data, on SNPs
+	 -population_structure.R: Evaluate population structure on high/low
+	 			  populations and ames population. Project
+				  high/low population structure onto Ames PCA
+				  and evaluate variance along each PC.
+
+Figures: Directory of figures
